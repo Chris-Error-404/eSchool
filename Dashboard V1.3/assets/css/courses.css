@@ -1,0 +1,490 @@
+
+/* css variables */
+:root{
+    --color-default:#030749;
+    --color-second: #070c71;
+    --color-white:#fff;
+    --color-dim-light: #f3f3f3;
+    --color-body:#e4e9f7;
+    --color-light:#e0e0e0;
+    --color-orange: #fe5050;
+    --color-dark-grey: #7e8299;
+}
+
+
+.courses-hero-header{
+    background-color: #f3f3f3;
+    height: auto;
+    margin: 2em;
+    margin-top: 5vh; /* change responsive */
+    padding: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.courses-text h1{
+    font-size: 1.2em;
+    color: #030749;
+    font-weight: 700;
+}
+
+.courses-text h4{
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #7e8299;
+}
+
+.courses-navbar{
+    margin: 2em;
+    padding: 1em;
+    padding-left: 0em;
+    padding-bottom: 0;
+    border-top: 1px solid #f3f3f3;
+    display: flex;
+    justify-content: left;
+}
+
+.courses-navbar a{
+    margin-right: 2em;
+    font-weight: 800;
+    font-size: 0.9em;
+    color: #7e8299;
+    padding: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 1.3em;
+    border-bottom:  2px solid #fff;
+    transition: all 0.3s ease;
+}
+
+.courses-navbar a:hover{
+    border-bottom:  2px solid #fe5050;
+}
+
+.courses-navbar a.active{
+    border-bottom:  2px solid #fe5050;
+    color: #030749;
+}
+
+/* Tab content styles */
+.tab-content {
+    display: none; /* Hide content by default */
+    background-color: none;
+}
+
+.tab-content.active {
+    display: block; /* Show active tab's content */
+}
+
+
+.tabs {
+    display: flex;
+    gap: 1em;
+    border-bottom: 2px solid #f3f3f3;
+    margin-bottom: 1em;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 0.5em 1em;
+    border: 1px solid transparent;
+    border-radius: 5px 5px 0 0;
+}
+
+.tab.active {
+    background-color: var(--color-second);
+    color: #fff;
+    border: 1px solid var(--color-second);
+    transition: 0.1s ease;
+}
+
+.tab-content {
+    display: none;
+    padding: 1em;
+    transition: 0.3s ease;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+
+.details-text h1{
+    font-size: 1.2em;
+    color: #030749;
+    font-weight: 700;
+}
+
+.details-text h4{
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #7e8299;
+}
+
+.details-text span{
+    display: block;
+    color: #7e8299;
+    font-size:0.85em;
+}
+
+.details-text span.tag{
+    display: inline;
+    color: #7e8299;
+    font-size: 0.85em;
+}
+
+
+/* new selector */
+
+.container {
+    padding: 1em;
+    padding-top: 0;
+    background: #fff;
+    border: 0px;
+}
+
+.dropdown{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    margin-top: 0;
+}
+
+.dropdown .students-result-header{
+    font-weight: 700;
+    color: #030749;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin-bottom: 1em;
+}
+
+.dropdown h4{
+    font-size: 0.9em;
+    color: #030749;
+    font-weight: 800;
+    font-size: 0.85em;
+    
+}
+
+.dropdown p{
+    margin-right: 2em;
+    font-weight: 400;
+    font-size: 0.8em;
+    color: #7e8299;
+}
+
+.dropdown select{
+    font-size: 0.8em;
+    width: 30%;
+    height: 10%;
+    padding-left: 1em;
+    padding-right: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #f3f3f3;
+    color: #5e6172;
+    border: 0px;
+    border-radius: 3px;
+    transition: all 0.5s ease;
+}
+
+.dropdown::after{
+    display: block;
+    content: '';
+    margin-bottom: 5vh;
+}
+
+.dropdown select:focus{
+    outline: 0.5px solid #030749;
+    background-color: #e8f0f84a;
+}
+
+.class-content {
+    display: none;
+    padding: 0;
+}
+
+.class-content.active {
+    display: block;
+}
+
+.tabs {
+    display: flex;
+    gap: 1em;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+.tabs.courses-navbar{
+    margin-left: 2em;
+}
+
+.tab {
+    cursor: pointer;
+    font-size: 0.8em;
+    padding: 0.5em 1em;
+    border: 1px solid transparent;
+    border-radius: 5px 5px 0 0;
+    transition: all 0.1s ease;
+}
+
+.tab.active {
+    background-color: #030749;
+    color: #fff;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.placeholder-message {
+    text-align: center;
+    color: #777;
+    margin-top: 2em;
+    font-size: 1.2em;
+}
+/* end course inner tabs */
+
+
+/* placeholder-message */
+.students-result-welcome-message{
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.students-result-welcome-message h4{
+    font-size: 1.2em;
+    color: #030749;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+.students-result-welcome-message p{
+    display: block;
+    color: #7e8299;
+    font-weight: 400;
+    font-size: 0.75em;
+    text-align: center;
+}
+/* end placeholder message */
+
+
+/* no result */
+.no-result-message{
+    min-height:20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.no-result-message h4{
+    font-size: 1.2em;
+    color: #030749;
+    font-weight: 700;
+}
+
+.no-result-message p{
+    display: block;
+    color: #7e8299;
+    font-weight: 400;
+    font-size: 0.75em;
+}
+
+.no-result-message-text{
+    text-align: center;
+}
+/* end no result */
+
+/*result table*/
+
+.students-result-header{
+    color: #030749;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6em;
+/*     border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3; */
+}
+
+.students-result-header h4{
+    font-size: 1em;
+}
+
+.students-result-header h3{
+    color: #030749;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+.students-result-header p{
+    color: #7e8299;
+    font-weight: 300;
+    font-size: 0.85em;
+}
+
+
+.students-result-table-container{
+    margin: 0em;
+}
+
+.students-result-table{
+    margin: 0em;
+    text-align: left;
+}
+
+.students-result-table tr{
+    color: #030749;
+    font-size: 0.75em;
+}
+
+
+.students-result-table tr {
+    display: flex; /* Required to align pseudo-elements properly */
+    align-items: center; /* Center the text and icon vertically */
+}
+
+.students-result-table td {
+    flex: 1; /* Allow table cells to take equal space */
+}
+
+.students-result-table th{
+    flex: 1; /* Allow table cells to take equal space */
+}
+
+
+.students-result-table th{
+    padding: 1em;
+    background-color: #f3f3f3;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-weight: 600;
+    color: #030749; 
+    font-size: 1em;
+}
+
+.students-result-table td{
+    font-weight: 400;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.students-result-table span{
+    padding: 0.5em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    border-radius: 5px;
+    font-weight: 400;
+    
+}
+
+.students-result-table span.green{
+    background-color: #50cd85;
+    color: #ffff;
+}
+
+.students-result-table span.grey{
+    background-color: #f3f3f3;
+    color: #030749;
+}
+
+.students-result-table span.yellow{
+    background-color: rgb(247, 247, 76);
+    color: #030749;
+}
+
+.students-result-table span.red{
+    color: #f3f3f3;
+    background-color: #fe5050;
+}
+
+.print-section{
+    margin-top: 5vh;
+}
+
+.print-section button{
+    background-color: #030749;
+    color: #fff;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    width: 10%;
+    border: 0px;
+    transition: 0.3s ease;
+    font-size: 0.8em;
+}
+
+.print-section button:hover{
+    background-color: #fe5050;
+}
+
+/* General Modal Styling */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dim background */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+/* Close Button */
+.modal-content.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Footer with Buttons */
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Button and Link Styling */
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #0067ac;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #005a94;
+}

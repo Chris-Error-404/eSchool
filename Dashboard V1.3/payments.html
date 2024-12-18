@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!--metas-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="education, school portal">
+  <meta name="author" content="Nzenwata Christopher, Awortu Ibenem">
+
+  <title>eSchool Portal</title>
+
+  <!-- main stylesheets-->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+
+  <!-- icon stylesheet online -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+  <!-- icon stylesheet offline -->
+  <link rel="stylesheet" href="./assets/css/boxicons/css/boxicons.css">
+  <link rel="stylesheet" href="./assets/css/font-awsome/css/all.min.css">
+
+  <!-- favicon stylesheet -->
+  <link rel="shortcut icon" href="" type="image/x-icon">
+
+  <!-- custom stylesheet -->
+    <link rel="stylesheet" href="./assets/css/payments.css">
+    <link rel="stylesheet" href="./assets/css/payments-responsive.css">
+
+</head>
+
+<body>
+
+  <header>
+    
+    <!-- mobile navbar -->
+    <div class="overlay"  id="overlay">
+      
+      <div class="dashboard-header">
+          <div>
+              <span class="dashboard-logo">Dashboard</span>
+          </div>
+
+          <div class="close">
+            <i class="bx bx-menu-alt-right close-btn" id="close-btn"></i>
+          </div>
+      </div>
+
+      <div class="overlay-content">
+
+          <div>
+              <nav class="side-menu">
+                  <ul class="nav-list">
+                      <li>
+                      <a href="./details.html">
+                          <i class="fas fa-user"></i>
+                          <span class="link_name">Details</span>
+                      </a>
+                      </li>
+                      <li>
+                      <a href="./courses.html">
+                          <i class="fas fa-book-open" aria-hidden="true"></i>
+                          <span class="link_name">Courses</span>
+                      </a>
+                      </li>
+                      <li>
+                      <a href="./payments.html">
+                          <i class="fas fa-credit-card"></i>
+                          <span class="link_name">Payments</span>
+                      </a>
+                      </li>
+                      <li>
+                      <a href="./requests.html">
+                          <i class="fas  fa-paper-plane"></i>
+                          <span class="link_name">Request</span>
+                      </a>
+                      </li>
+                      <li>
+                      <a href="./accommodation.html">
+                          <i class="fas fa-bed"></i>
+                          <span class="link_name">Accommodation</span>
+                      </a>
+                      </li>
+                      <li>
+                      <a href="#">
+                          <i class="fa-solid fa-thumbtack"></i>
+                          <span class="link_name">Notice Board</span>
+                      </a>
+                      </li>
+                      <li>
+                      <a href="./contact.html">
+                          <i class="fa-solid fa-phone"></i>
+                          <span class="link_name">Contact</span>
+                      </a>
+                      </li>
+                      <li class="sign-out">
+                      <a href="/sign-in.html">
+                          <i class="fas fa-sign-out"></i>
+                          <span class="link_name">Sign Out</span>
+                      </a>
+                      </li>
+                  </ul>
+              </nav>
+          </div>
+
+          <div class="profile-section">
+              <ul>
+                  <li class="profile">
+                      <div class="profile_details">
+                        <img src="./assets/img/profile.jpeg" alt="profile image">
+                        <div class="profile_content">
+                          <div class="name" id="name">Johnson Anna Jane</div>
+                          <div class="designation" id="Level">Senior Secondary 1</div>
+                        </div>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+
+      </div>
+
+    </div>
+    <!-- end mobile navbar -->
+
+
+    <!--sidebar desktop-->    
+    <div class="sidebar">
+
+        <div class="logo_details">
+          <div class="logo_name">
+            Dashboard
+          </div>
+          <i class="bx bx-menu" id="btn"></i>
+        </div>
+
+        <!--Dashboard Nav-list-->
+        <ul class="nav-list">
+          <li>
+            <a href="./details.html">
+              <i class="fas fa-user"></i>
+              <span class="link_name">Details</span>
+            </a>
+            <span class="tooltip">Details</span>
+          </li>
+          <li>
+            <a href="./courses.html">
+              <i class="fas fa-book-open" aria-hidden="true"></i>
+              <span class="link_name">Courses</span>
+            </a>
+            <span class="tooltip">Courses</span>
+          </li>
+          <li>
+            <a href="./payments.html">
+              <i class="fas fa-credit-card"></i>
+              <span class="link_name">Payments</span>
+            </a>
+            <span class="tooltip">Payments</span>
+          </li>
+          <li>
+            <a href="./requests.html">
+              <i class="fas  fa-paper-plane"></i>
+              <span class="link_name">Request</span>
+            </a>
+            <span class="tooltip">Request</span>
+          </li>
+          <li>
+            <a href="./accommodation.html">
+              <i class="fas fa-bed"></i>
+              <span class="link_name">Accommodation</span>
+            </a>
+            <span class="tooltip">Accommodation</span>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-thumbtack"></i>
+              <span class="link_name">Notice Board</span>
+            </a>
+            <span class="tooltip">Notice Board</span>
+          </li>
+          <li class="profile">
+            <div class="profile_details">
+              <img src="./assets/img/profile.jpeg" alt="user img">
+              <div class="profile_content">
+                <div class="name" id="name">Johnson Anna</div>
+                <div class="designation" id="Level">Senior Secondary 1</div>
+              </div>
+            </div>
+            <i class="bx bx-log-out" id="log_out"></i>
+          </li>
+        </ul>
+
+    </div>   
+    <!--end sidebar desktop--> 
+  </header>
+    
+
+  <main>
+    <!--section acting as the pseudo-body-->
+      <section class="home-section">
+
+        <div class="sub-navbar">
+
+          <div class="contact">
+            <span class="gmail">
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:eSchool@gmail.com">eSchool@gmail.com</a>
+            </span>
+          
+            <span>
+              <i class="fas fa-phone"></i>
+              <a href="tel:+2348141207888">+234 8141207888</a>
+            </span>
+          
+            <span>
+              <a href="tel:+2348141207888">+234 8141207888</a>
+            </span>
+          </div>
+          
+          <div>
+            <i class="fas fa-info-circle"></i>
+            <a href="news.html">Help ?</a>
+          </div>
+          
+        </div>  
+
+
+        <!--navbar-->
+        <div class="navbar"><!--flex-->
+
+            <div class="logo"><!--child 1-->
+              <i class="bx bx-menu menu-btn" id="menu-btn"></i>
+                <h1><a href="./index.html">eSCHOOL</a></h1>  
+            </div>
+
+            <div class="navbar-items1"><!--child 1-->
+
+                <div class="term">
+                    <h4>CURRENT TERM</h4>
+                    <h5>Second Term</h5>
+                </div>
+
+                <div class="term">
+                    <h4>FORM TEACHERS</h4>
+                    <h5><a href="#">Nzenwata Christopher</a></h5>
+                    <h5><a href="#">Ibenem Awortu</a></h5>
+                </div>
+
+                <div class="term">
+                    <h4>FIELD</h4>
+                    <h5>Science</h5>
+                </div>
+
+                <div class="term">
+                    <h4>CLASS</h4>
+                    <h5>SS1</h5>
+                </div>
+
+            </div>
+
+
+            <div class="navbar-items2"><!--child 2-->
+
+            <span class="status">Student </span>
+
+            <div class="dropdown-container"><!--dropdown-->
+                <h4 class="dropdown-toggle">
+                Anna<i class="fas fa-chevron-down"></i>
+                </h4>
+
+                <div class="dropdown-content">
+
+                    <div class="card-top">
+                        
+                        <div class="card-img">
+                            <img src="./assets/img/profile.jpeg" alt="Profile Image">
+                        </div>
+
+                        <div class="card-top-text">
+                        <div class="name" id="name">Johnson, Anna Jane</div>
+                        <div class="designation" id="Level">Senior Secondary 1</div>
+                        </div>
+                    
+                    </div>
+
+                    <hr>
+
+                    <div class="card-bottom">
+                        <div class="email">
+                        <a href="#">annajohn@gmail.com</a>  
+                        </div>
+                        <div class="my-profile">
+                        <a href="./details.html">My Profile</a>
+                        </div>
+                        <div class="changepass">
+                        <a href="#">Change Password</a>
+                        </div>
+                        <div class="log-out">
+                        <a href="./sign-in.html">Sign Out<i class="bx bx-log-out" id="log_out"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            </div>
+
+        </div>
+        <!--end navbar--> 
+
+        <!-- IMPORTANT -->
+        <div class="payments-hero-header">
+            <div class="payments-text">
+                <h1>Payments</h1>
+                <h4>Easily make school payments</h4>
+            </div>
+        </div>
+
+        <div class="tabs payments-navbar">
+            <a href="#tab1" class="tab-link active">Make Payments</a>
+            <a href="#tab2" class="tab-link">Payments Receipts</a>
+            <a href="#tab3" class="tab-link">Transaction History</a>
+        </div>
+
+        <div id="tab1" class="tab-content active">
+            <div class="payment-flex-box-row">
+
+                <div class="payment-box">
+                    <div class="payment-title">
+                        <h4>SCHOOL FEES FIRST</h4>
+                        <h4>INSTALLMENT</h4>
+                    </div>
+
+                    <div class="payment-amount">
+                    <p>Amount: N<span class="amount">64,600</span></p>
+                    <p class="session">2025/2026</p>
+                    </div>
+
+                    <div class="payment-btn">
+                    <button>Pay</button>
+                    </div>
+                </div>
+
+                <div class="payment-box">
+                    <div class="payment-title">
+                        <h4>SCHOOL FEES SECOND</h4>
+                        <h4>INSTALLMENT</h4>
+                    </div>
+
+                    <div class="payment-amount">
+                    <p>Amount: N<span class="amount">40,000</span></p>
+                    <p class="session">2025/2026</p>
+                    </div>
+
+                    <div class="payment-btn">
+                    <button>Pay</button>
+                    </div>
+                </div>
+
+                <div class="payment-box">
+                    <div class="payment-title">
+                        <h4>ACCOMMODATION</h4>
+                        <h4>FEE</h4>
+                    </div>
+
+                    <div class="payment-amount">
+                    <p>Amount: N<span class="amount">40,000</span></p>
+                    <p class="session">2025/2026</p>
+                    </div>
+
+                    <div class="payment-btn">
+                    <button>Pay</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div id="tab2" class="tab-content">
+            <div class="payment-receipt-hero">
+                <p>Payment for School Charges</p>
+            </div>
+
+            <div class="payment-receipt-table">
+                <table style="width:100%" class="receipt-table">
+
+                    <tr>
+                        <td>
+                            <div class="payment-table-title">
+                                <h4><a href ="#">SCHOOL FEES PAYMENT</a></h4>
+                                <p>Amount: N<span class="amount">104,000</span></p>
+                            </div>
+                        </td>
+
+                        <td>
+                            <div class="payment-table-time-clock">
+                                2025/2026
+                            </div>
+                        </td>	
+
+                      <td>
+                        <div class="payment-table-time">
+                            Jan29, 2024 6:02pm
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="payment-table-title">
+                                <h4><a href ="#">SCHOOL FEES PAYMENT</a></h4>
+                                <p>Amount: N<span class="amount">104,000</span></p>
+                            </div>
+                        </td>
+
+                        <td>
+                            <div class="payment-table-time-clock">
+                                2025/2026
+                            </div>
+                        </td>	
+
+                      <td>
+                        <div class="payment-table-time">
+                            Jan29, 2024 6:02pm
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="payment-table-title">
+                                <h4><a href ="#">SCHOOL FEES PAYMENT</a></h4>
+                                <p>Amount: N<span class="amount">104,000</span></p>
+                            </div>
+                        </td>
+
+                        <td>
+                            <div class="payment-table-time-clock">
+                                2025/2026
+                            </div>
+                        </td>	
+
+                      <td>
+                        <div class="payment-table-time">
+                            Jan29, 2024 6:02pm
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="payment-table-title">
+                                <h4><a href ="#">SCHOOL FEES PAYMENT</a></h4>
+                                <p>Amount: N<span class="amount">104,000</span></p>
+                            </div>
+                        </td>
+
+                        <td>
+                            <div class="payment-table-time-clock">
+                                2025/2026
+                            </div>
+                        </td>	
+
+                      <td>
+                        <div class="payment-table-time">
+                            Jan29, 2024 6:02pm
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="payment-table-title">
+                                <h4><a href ="#">SCHOOL FEES PAYMENT</a></h4>
+                                <p>Amount: N<span class="amount">104,000</span></p>
+                            </div>
+                        </td>
+
+                        <td>
+                            <div class="payment-table-time-clock">
+                                2025/2026
+                            </div>
+                        </td>	
+
+                      <td>
+                        <div class="payment-table-time">
+                            Jan29, 2024 6:02pm
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="payment-table-title">
+                                <h4><a href ="#">SCHOOL FEES PAYMENT</a></h4>
+                                <p>Amount: N<span class="amount">104,000</span></p>
+                            </div>
+                        </td>
+
+                        <td>
+                            <div class="payment-table-time-clock">
+                                2025/2026
+                            </div>
+                        </td>	
+
+                      <td>
+                        <div class="payment-table-time">
+                            Jan29, 2024 6:02pm
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="payment-table-title">
+                                <h4><a href ="#">SCHOOL FEES PAYMENT</a></h4>
+                                <p>Amount: N<span class="amount">104,000</span></p>
+                            </div>
+                        </td>
+
+                        <td>
+                            <div class="payment-table-time-clock">
+                                2025/2026
+                            </div>
+                        </td>	
+
+                      <td>
+                        <div class="payment-table-time">
+                            Jan29, 2024 6:02pm
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="payment-table-title">
+                                <h4><a href ="#">SCHOOL FEES PAYMENT</a></h4>
+                                <p>Amount: N<span class="amount">104,000</span></p>
+                            </div>
+                        </td>
+
+                        <td>
+                            <div class="payment-table-time-clock">
+                                2025/2026
+                            </div>
+                        </td>	
+
+                      <td>
+                        <div class="payment-table-time">
+                            Jan29, 2024 6:02pm
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="payment-table-title">
+                                <h4><a href ="#">SCHOOL FEES PAYMENT</a></h4>
+                                <p>Amount: N<span class="amount">104,000</span></p>
+                            </div>
+                        </td>
+
+                        <td>
+                            <div class="payment-table-time-clock">
+                                2025/2026
+                            </div>
+                        </td>	
+
+                      <td>
+                        <div class="payment-table-time">
+                            Jan29, 2024 6:02pm
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="payment-table-title">
+                                <h4><a href ="#">SCHOOL FEES PAYMENT</a></h4>
+                                <p>Amount: N<span class="amount">104,000</span></p>
+                            </div>
+                        </td>
+
+                        <td>
+                            <div class="payment-table-time-clock">
+                                2025/2026
+                            </div>
+                        </td>	
+
+                      <td>
+                        <div class="payment-table-time">
+                            Jan29, 2024 6:02pm
+                        </div>
+                      </td>
+                    </tr>
+
+
+
+                </table>
+            </div> 
+
+
+<!--             <div class="payment-receipt-grid">
+                <ul class="payment-receipt-grid-title">
+                    <li>                      
+                        <div>
+                            <h4>SCHOOL FEES PAYMENT</h4>
+                            <p>Amount: N<span class="amount">104,000</span></p>
+                        </div>
+                    </li>
+
+                    
+                </ul>
+            </div> -->
+
+        </div>
+
+        <div id="tab3" class="tab-content">
+          <div class="transaction-history-header">
+            <p>View school payment history</p>
+          </div>
+
+
+          <div class="transcation-history-table-container">
+            <table style="width:90%" class="transaction-history-table">
+              <thead>
+              <tr class="transaction-history-table-header">
+                <th>Payment Title</th>
+                <th>Session</th>
+                <th>Invoice No</th>
+                <th>Status</th>
+                <th>Date</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>
+                  <div class="transaction-history-table-title">
+                    <h4>HOSTEL BOOKING</h4>
+                    <p>N<span class="amount">1,000</span></p>
+                </div>
+                </td>
+
+                <td>
+                  2025/2026
+                </td>
+                <td>
+                  202420252026
+                </td>
+                <td class="transaction status success">
+                  Successful
+                </td>
+                <td>
+                  February 2nd 2025. 3:30:36pm
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="transaction-history-table-title">
+                    <h4>HOSTEL BOOKING</h4>
+                    <p>N<span class="amount">1,000</span></p>
+                </div>
+                </td>
+
+                <td>
+                  2025/2026
+                </td>
+                <td>
+                  202420252026
+                </td>
+                <td class="transaction status success">
+                  Successful
+                </td>
+                <td>
+                  February 2nd 2025. 3:30:36pm
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="transaction-history-table-title">
+                    <h4>HOSTEL BOOKING</h4>
+                    <p>N<span class="amount">1,000</span></p>
+                </div>
+                </td>
+
+                <td>
+                  2025/2026
+                </td>
+                <td>
+                  202420252026
+                </td>
+                <td class="transaction status success">
+                  Successful
+                </td>
+                <td>
+                  February 2nd 2025. 3:30:36pm
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="transaction-history-table-title">
+                    <h4>HOSTEL BOOKING</h4>
+                    <p>N<span class="amount">1,000</span></p>
+                </div>
+                </td>
+
+                <td>
+                  2025/2026
+                </td>
+                <td>
+                  202420252026
+                </td>
+                <td class="transaction status failed">
+                  Failed
+                </td>
+                <td>
+                  February 2nd 2025. 3:30:36pm
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="transaction-history-table-title">
+                    <h4>HOSTEL BOOKING</h4>
+                    <p>N<span class="amount">1,000</span></p>
+                </div>
+                </td>
+
+                <td>
+                  2025/2026
+                </td>
+                <td>
+                  202420252026
+                </td>
+                <td class="transaction status success">
+                  Successful
+                </td>
+                <td>
+                  February 2nd 2025. 3:30:36pm
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="transaction-history-table-title">
+                    <h4>HOSTEL BOOKING</h4>
+                    <p>N<span class="amount">1,000</span></p>
+                </div>
+                </td>
+
+                <td>
+                  2025/2026
+                </td>
+                <td>
+                  202420252026
+                </td>
+                <td class="transaction status success">
+                  Successful
+                </td>
+                <td>
+                  February 2nd 2025. 3:30:36pm
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="transaction-history-table-title">
+                    <h4>HOSTEL BOOKING</h4>
+                    <p>N<span class="amount">1,000</span></p>
+                </div>
+                </td>
+
+                <td>
+                  2025/2026
+                </td>
+                <td>
+                  202420252026
+                </td>
+                <td class="transaction status pending">
+                  Pending
+                </td>
+                <td>
+                  February 2nd 2025. 3:30:36pm
+                </td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+
+        </div>
+
+
+        <!-- IMPORTANT -->
+      
+      </section>
+    <!-- end pseudo-body-->
+  
+
+    <!-- UTILITIES -->
+    <button id="scroll-to-top" class="scroll-btn">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <div id="loader">
+      <div class="circle"></div>
+      <p><strong>Please wait</strong></p>
+      <small>This will take only a moment...</small>
+    </div>
+    <!-- end UTILITIES -->
+  </main>
+  
+
+  <footer>
+    <div class="footer-navbar">
+        <div class="footer-logo">
+            eSchool
+        </div>
+
+        <div class="sub-head">
+          &copy;Copyrigth 2024 | All Rights Reserved
+        </div>
+
+        <div class="sub-head">
+          <a href="#">Privacy Policy</a> | <a href="#">Terms and Conditions</a>
+        </div>
+
+        <div class="sub-head">
+          <a href="#">About </a> | <a href="#">Support</a>
+        </div>
+    </div>
+
+      <!--SCRIPT-->
+    <script src="./assets/js/main.js"></script>
+  </footer>
+
+</body>
+</html>

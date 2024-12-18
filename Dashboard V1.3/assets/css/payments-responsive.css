@@ -1,0 +1,148 @@
+@media (max-width:1024px){
+    body::before{
+        display: block;
+        content: '';
+        height: 60px;
+    }
+
+    
+.payments-hero-header{
+    margin: 1em;
+    margin-top: 0em;
+}
+
+.payments-navbar{
+    margin: 1em;
+    margin-bottom: 0em;
+    padding: 0em;
+}
+
+.payments-navbar a{
+    margin-right: 1.5em;
+    font-size: 0.8em;
+}
+
+.payment-flex-box-row{
+    display: block;
+    margin: 1em;
+}
+
+.payment-box{
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.payment-table-time-clock{
+    display: none;
+}
+
+.transaction-history-header{
+    margin: 1em;
+    margin-top: 0em;
+}
+
+.transaction-history-table-container{
+    margin: 1em;
+}
+
+.transaction-history-table{
+    margin: 1em;
+}
+
+.transaction-history-table-header th{
+    padding-left: 0;
+}
+
+table.transaction-history-table td{
+    padding-left: 0em;
+}
+
+table.transaction-history-table td:nth-child(2) {
+    display: none;
+}
+table.transaction-history-table td:nth-child(3) {
+    display: none;
+}
+
+table.transaction-history-table th:nth-child(2) {
+    display: none;
+}
+table.transaction-history-table th:nth-child(3) {
+    display: none;
+}
+
+}
+
+@media (max-width:786px){
+    body::before{
+        display: block;
+        content: '';
+        height: 60px;
+    }
+
+    
+.payments-hero-header{
+    margin: 1em;
+}
+
+.payments-navbar{
+    margin: 1em;
+    margin-bottom: 0em;
+    padding: 0em;
+}
+
+.payments-navbar a{
+    margin-right: 1.5em;
+    font-size: 0.8em;
+}
+
+.payment-flex-box-row{
+    display: block;
+    margin: 1em;
+}
+
+.payment-box{
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.payment-table-time-clock{
+    display: none;
+}
+
+
+.transaction-history-header{
+    margin: 1em;
+    margin-top: 0em;
+}
+
+.transaction-history-table-container{
+    margin: 1em;
+}
+
+.transaction-history-table{
+    margin: 1em;
+}
+
+.transaction-history-table-header th{
+    padding-left: 0;
+}
+
+table.transaction-history-table td{
+    padding-left: 0em;
+}
+
+table.transaction-history-table td:nth-child(2) {
+    display: none;
+}
+table.transaction-history-table td:nth-child(3) {
+    display: none;
+}
+
+table.transaction-history-table th:nth-child(2) {
+    display: none;
+}
+table.transaction-history-table th:nth-child(3) {
+    display: none;
+}
+}

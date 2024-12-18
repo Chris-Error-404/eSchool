@@ -1,0 +1,118 @@
+@media (max-width: 1024px){
+    body::before{
+        display: block;
+        content: '';
+        height: 60px;        
+        transition: all 0.5s ease;
+    }
+
+    .accomodation-hero-header{
+        margin: 1em;
+    }
+
+    .accomodation-grid-container{
+        display: block;
+        margin: 1em;
+        margin-top: 10vh;
+    }
+
+    .accomodation-grid-box{
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+
+    .accomodation-grid-box.box-2{
+        border-left: 0px solid #f3f3f3;
+        border-right: 0px;
+        border-top: 1px solid #f3f3f3;
+        border-bottom: 1px solid #f3f3f3;
+        border-radius: 3px;
+        margin: 1em;
+    }
+    
+    .accomodation-grid-box.box-1{
+        line-height: 1.8em;
+        text-align: center;
+
+    }
+
+    .secured-img img{
+        width: 50px;
+    }
+    
+}
+
+/* For iPad Mini and similar devices (portrait mode) */
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    
+
+    .accomodation-hero-header{
+        margin: 1em;
+    }
+
+    .accomodation-grid-container{
+        display: block;
+        margin: 1em;
+    }
+
+    .accomodation-grid-box{
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+
+    .accomodation-grid-box.box-2{
+        border-left: 0px solid #f3f3f3;
+        border-right: 0px;
+        border-top: 1px solid #f3f3f3;
+        border-bottom: 1px solid #f3f3f3;
+        border-radius: 3px;
+        margin: 1em;
+    }
+    
+    .accomodation-grid-box.box-1{
+        line-height: 1.8em;
+        text-align: center;
+
+    }
+
+    .secured-img img{
+        width: 50px;
+    }
+}
+
+@media (max-width:786px){
+
+    .accomodation-hero-header{
+        margin: 1em;
+    }
+
+    .accomodation-grid-container{
+        display: block;
+        margin: 1em;
+    }
+
+    .accomodation-grid-box{
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+
+    .accomodation-grid-box.box-2{
+        border-left: 0px solid #f3f3f3;
+        border-right: 0px;
+        border-top: 1px solid #f3f3f3;
+        border-bottom: 1px solid #f3f3f3;
+        border-radius: 3px;
+        margin: 1em;
+    }
+    
+    .accomodation-grid-box.box-1{
+        line-height: 1.8em;
+        text-align: center;
+
+    }
+
+    .secured-img img{
+        width: 50px;
+    }
+    
+}

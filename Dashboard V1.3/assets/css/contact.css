@@ -1,0 +1,87 @@
+
+/* css variables */
+:root{
+    --color-default:#030749;
+    --color-second: #070c71;
+    --color-white:#fff;
+    --color-dim-light: #f3f3f3;
+    --color-body:#e4e9f7;
+    --color-light:#e0e0e0;
+    --color-orange: #fe5050;
+    --color-dark-grey: #7e8299;
+}
+
+
+div.contact-hero{
+    margin: 1em;
+    color: #030749;
+}
+
+.contact-text h1{
+    font-size: 1.2em;
+    color: #030749;
+    font-weight: 700;
+}
+
+.contact-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em;
+}
+
+.contact-content h2{
+    font-size: 1.1em;
+    color: #030749;
+    line-height: 1.8em;
+}
+
+
+.contact-content a{
+    color: #7e8299;
+    font-size: 1em;
+    transition: 0.5s ease ;
+}
+
+.contact-content a:hover{
+    color: #fe5050;
+}
+
+.phone-container span{
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.phone-container{
+    padding: 2em;
+    width: 50%;
+}
+
+.gmail-container{
+    width: 50%;
+    padding: 2em;
+    font-size: 1.1em;
+}
+
+
+
+.contact-text{
+    background-color: #f3f3f3;
+    padding: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+    height: auto;
+}
+
+.contact-text h3{
+    font-size: 1em;
+    color: #7e8299;
+    font-weight: 400
+}
+
+
+.contact-text h4{
+    font-size: 0.8em;
+    color: #7e8299;
+    font-weight: 400
+}

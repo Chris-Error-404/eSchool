@@ -1,0 +1,134 @@
+
+/* css variables */
+:root{
+    --color-default:#030749;
+    --color-second: #070c71;
+    --color-white:#fff;
+    --color-dim-light: #f3f3f3;
+    --color-body:#e4e9f7;
+    --color-light:#e0e0e0;
+    --color-orange: #fe5050;
+    --color-dark-grey: #7e8299;
+}
+
+
+/* details hero header */
+.details-hero-header{
+    background-color: #f3f3f3;
+    height: auto;
+    margin: 2em;
+    margin-top: 5vh; /* change responsive */
+    padding: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.details-text h1{
+    font-size: 1.2em;
+    color: #030749;
+    font-weight: 700;
+}
+
+/* end details hero header */
+
+.details-text h4{
+    font-size: 0.85em;
+    font-weight: 500;
+    color: #7e8299;
+}
+
+.details-hero{
+    display: flex;
+    margin: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.details-img{
+    width: 11%;
+    height: fit-content;
+    display: flex;
+    justify-content: right;
+    margin-right: 1em;
+}
+.details-text{
+    width: 70%;
+    line-height: 1.5em;
+}
+.details-hero .details-img img{
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+}
+.details-text span{
+    display: block;
+    color: #7e8299;
+    font-size:0.85em;
+}
+
+.details-text span.tag{
+    display: inline;
+    color: #7e8299;
+    font-size: 0.9em;
+}
+
+.details-card{
+    margin: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+    padding-bottom: 1.5em;
+    padding-top: 0.5em;
+}
+
+.details-card-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    color: #030749;
+    
+}
+
+
+.details-card-top a{
+    color: #7e8299;
+    font-size: 0.8em;
+    transition: 0.3s ease;
+}
+
+.details-card-top a:hover{
+    color: #fe5050;
+}
+
+.details-card-bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    height: auto;
+}
+
+.details-card-flex-box{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    margin: 0em;
+    line-height: 0.5em;
+}
+
+.details-card-flex-box h3{
+    color: #fe5050;
+    font-weight: 500;
+    font-size: 0.85em; 
+}
+
+.details-card-flex-box h5{
+    color: #7e8299;
+    font-weight: 400;
+    font-size: 0.8em;
+    padding-top: 1em;
+}
+
+

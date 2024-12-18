@@ -1,0 +1,206 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* reset */
+*{
+
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* global css */
+a{
+    text-decoration: none;
+}
+
+ul,li{
+    list-style-type: none;
+}
+
+
+/* css variables */
+:root{
+    --color-default:#030749;
+    --color-second: #070c71;
+    --color-white:#fff;
+    --color-body:#e4e9f7;
+    --color-light:#e0e0e0;
+}
+
+/* BODY */
+body{
+    min-height: 100vh; /* change in mobile view */
+   /*  background-color: #fff; */
+   font-family: 'Poppins', sans-serif;
+}
+
+.sign-in-body{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.sign-in-grid{
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+
+}
+
+.sign-in-form{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in-form .sign-in-container{
+    width: 85%;
+    color: #030749;
+}
+
+.sign-in-container h1{
+    font-size: 1.5em;
+    margin-bottom: 0.4em;
+    font-weight: 600;
+}  
+
+.sign-in-container span{
+    font-weight: 400;
+    margin-bottom: 0.35em;
+    display: block;
+    color: #7e8299;
+    font-size: 0.8em;
+}
+
+.sign-in-container a{
+    color: #fe5050;
+}
+
+.sign-in-container a:hover{
+    color: rgb(255, 71, 71);;
+}
+
+input{
+    height: auto;
+    width: 100%;
+    padding: 0.625em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    background-color: #f3f3f3;
+    border: #f3f3f3;
+    border-radius: 0px;
+    transition: all 0.5s ease;
+}
+
+input::placeholder{
+    color: #7e8299;
+    font-size: 0.9em;
+}
+
+input:focus{
+    outline: 0.5px solid #070c71;
+    background-color: #e8f0f8;
+}
+/* input{
+    border: 0.5px solid var(--color-second);
+} */
+
+button{
+    background-color: #030749;
+    color: #fff;
+    width: 100%;    padding: 0.625em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 1.4em;
+    border: 0px ;
+    cursor: pointer;
+    border-radius: 0px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover{
+    background-color: var(--color-second);
+}
+
+button a.continue{
+    color: #fff;
+    font-weight: 400;
+}
+
+button a.continue:hover{
+    color: #fff;
+}
+
+
+
+
+.sign-in-img{
+    background-color: #070c71;
+    background-image: url(/assets/img/sign\ in.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.back-to-page{
+    display: flex;
+    justify-content: right;
+    padding: 0.5em;
+}
+
+.back-to-page a{
+    background-color: #030749;
+    font-size: 0.8em;
+    color: #fff;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-weight: 300;
+    transition: 0.3s ease-in-out;
+}
+
+.back-to-page a:hover{
+    background-color: var(--color-second);
+}
+
+.back-to-page i{
+    margin-left: 0.5em;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.back-to-page i:hover{
+    color: #fff;
+}
+
+.welcome{
+    background-color: #030749;
+    padding: 1em;
+    padding-bottom: 0.5em;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5em
+}
+
+.welcome span{
+    display: block;
+    font-size: 1em;
+}
+
+.back{
+    display: none;
+}
+

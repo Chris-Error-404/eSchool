@@ -1,0 +1,138 @@
+
+/* css variables */
+:root{
+    --color-default:#030749;
+    --color-second: #070c71;
+    --color-white:#fff;
+    --color-dim-light: #f3f3f3;
+    --color-body:#e4e9f7;
+    --color-light:#e0e0e0;
+    --color-orange: #fe5050;
+    --color-dark-grey: #7e8299;
+}
+
+.request-hero-header{
+    background-color: var(--color-dim-light);
+    height: auto;
+    margin: 2em;
+    margin-top: 5vh; /* change responsive */
+    padding: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.request-text{
+    line-height: 1.5em;
+    color: var(--color-orange);
+}
+
+.request-text a{
+    color: var(--color-orange);
+    transition: all 0.5s ease;
+}
+
+.request-text a:hover{
+    text-decoration: underline;
+}
+
+.request-text h1{
+    font-size: 1.2em;
+    color: var(--color-default);
+    font-weight: 700;
+}
+
+.request-text h4{
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #7e8299;
+}
+
+.request-text h5{
+    color: var(--color-dark-grey);
+    font-weight: 400;
+}
+
+
+
+.request-grid-box{
+    height: auto;
+    margin: 2em;
+/*     padding: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid var(--color-dim-light);
+    border-bottom: 1px solid var(--color-dim-light);
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+}
+
+.request-flex-box{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    line-height: 1.5em;
+}
+
+
+.request-flex-box h3{
+    color: var(--color-orange);
+    font-weight: 500;
+    font-size: 0.85em;
+}
+
+.request-flex-box h5{
+    color: var(--color-default);
+    font-weight: 700;
+    font-size: 1.1em;
+    /* text-transform: uppercase; */
+}
+
+.request-notice{
+    height: auto;
+    margin: 2em;
+    margin-bottom: 1em;
+}
+
+.request-notice p{
+    color: var(--color-dark-grey);
+    font-size: 0.8em;
+}
+
+.request-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em;
+    margin-left: 2em;
+
+}
+
+.request-btn a{
+    background-color: var(--color-default);
+    font-size: 0.85em;
+    color: var(--color-white);
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    font-weight: 300;
+    transition: 0.3s ease-in-out;
+    border-radius: 3px;
+}
+
+.request-btn a:hover{
+    background-color: #fe5050;
+}
+
+.request-btn p{
+    color: #fe5050;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.request-btn span{
+    color: var(--color-dark-grey);
+}
+
+

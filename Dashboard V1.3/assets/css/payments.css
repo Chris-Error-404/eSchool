@@ -1,0 +1,304 @@
+
+/* css variables */
+:root{
+    --color-default:#030749;
+    --color-second: #070c71;
+    --color-white:#fff;
+    --color-dim-light: #f3f3f3;
+    --color-body:#e4e9f7;
+    --color-light:#e0e0e0;
+    --color-orange: #fe5050;
+    --color-dark-grey: #7e8299;
+}
+
+.payments-hero-header{
+    background-color: #f3f3f3;
+    height: auto;
+    margin: 2em;
+    margin-top: 5vh; /* change responsive */
+    padding: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.payments-text{
+    line-height: 1.5em;
+}
+
+.payments-text h1{
+    font-size: 1.2em;
+    color: #030749;
+    font-weight: 700;
+}
+
+.payments-text h4{
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #7e8299;
+}
+
+.payments-navbar{
+    margin: 2em;
+    margin-bottom: 0; /* adjust for line to br aligned*/
+    padding: 1em;
+    padding-bottom: 0;
+    padding-left: 0em;
+    border-top: 1px solid #f3f3f3;
+    display: flex;
+    justify-content: left;
+}
+
+.payments-navbar a{
+    margin-right: 2em;
+    font-weight: 800;
+    font-size: 0.85em;
+    color: #7e8299;
+    padding: 1em;
+    padding-bottom: 2em;
+    border-bottom:  2px solid #fff;
+    transition: all 0.3s ease;
+}
+
+.payments-navbar a:hover{
+    border-bottom:  2px solid #fe5050;
+   /*  color: #030749; */
+}
+
+.payments-navbar a.active{
+    border-bottom:  2px solid #fe5050;
+    color: #030749;
+}
+
+/* Tab content styles */
+.tab-content {
+    display: none; /* Hide content by default */
+}
+
+.tab-content.active {
+    display: block; /* Show active tab's content */
+}
+
+.payment-flex-box-row{
+    display: flex;
+    align-items: center;
+    margin: 2em;
+    gap: 2em;
+}
+
+.payment-box{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #f3f3f3;
+    background-color: #f3f3f3;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 2em;
+    width: 23%;
+    border-radius: 5px;
+}
+
+.payment-title{
+    margin-bottom: 1em;
+    color: var(--color-default);
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+
+.payment-amount{
+    font-size: 0.75em;
+    color: #6b6e7f;
+    font-weight: 300;
+    margin-bottom: 0.95em;
+    line-height: 1.5em;
+    word-spacing: 0.3em;
+}
+
+.payment-amount span.amount{
+    color: #fe5050;
+    font-weight: 500;
+}
+
+.payment-btn button{
+    background-color: var(--color-default);
+    color: white;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border: 0px ;
+    font-weight: 400;
+    font-size: 0.8em;
+    transition: 0.3s ease;
+    border-radius: 3.5px;
+    cursor: pointer;
+}
+
+.payment-btn button:hover{
+    background-color: #fe5050;
+}
+
+.payment-receipt-hero{
+    margin: 2em;
+    margin-top: 0em;
+    font-size: 0.9em;
+    font-weight: 700;
+    color: #030749;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.payment-receipt-table{
+    margin: 2em;
+}
+
+.payment-table-title{
+   margin-bottom: 1em;
+}
+
+.payment-table-title h4{
+    color: #030749;
+    font-size: 0.75em;
+}
+
+.payment-table-title a{
+    color: #030749;
+    transition: 0.5s ease;
+}
+
+.payment-table-title a:hover{
+    color: #fe5050;
+}
+
+.payment-table-title p{
+    font-size: 0.7em;
+    color: #7e8299;
+    font-weight: 400;
+}
+
+.payment-table-time{
+    font-size: 0.7em;
+    color: #7e8299;
+}
+
+.payment-table-time-clock{
+    font-size: 0.7em;
+    color: #7e8299;
+}
+
+/* tabel styling */
+.receipt-table tr:nth-child(odd) {
+    background-color: #f9f9f9; /* Replace with your desired color */
+    align-items: center;
+}
+
+.receipt-table tr::before {
+    content: "\f00c"; /* Unicode for Font Awesome check icon */
+    font-family: "Font Awesome 6 Free"; /* Font Awesome family */
+    font-weight: 900; /* Font Awesome solid weight */
+    margin-right: 10px; /* Space between the icon and the row */
+    color: #fe5050; /* Set the icon color */
+}
+
+.receipt-table tr {
+    display: flex; /* Required to align pseudo-elements properly */
+    align-items: center; /* Center the text and icon vertically */
+}
+
+.receipt-table td {
+    flex: 1; /* Allow table cells to take equal space */
+}
+
+
+
+.transaction-history-header{
+    margin: 2em;
+    margin-top: 0em;
+    font-size: 0.9em;
+    font-weight: 700;
+    color: #030749;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.transaction-history-table-container{
+    margin: 2em;
+}
+
+.transaction-history-table{
+    text-align: left;
+    margin: 2em;
+}
+
+
+
+
+
+.transaction-history-table-header{
+    background-color: #f3f3f3;
+    margin: 0;
+}
+
+.transaction-history-table-header th{
+    padding: 1em;
+    background-color: #f3f3f3;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 0.85em;
+    font-weight: 700;
+    color: #030749; 
+}
+
+.transaction-history-table-title h4{
+    color: #030749;
+    font-size: 1em;
+}
+
+
+table.transaction-history-table td{
+    font-size: 0.7em;
+    font-weight: 300;
+    color: #7e8299;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+table.transaction-history-table td.success{
+    color: #50cd85;
+    font-weight: 400;
+}
+
+table.transaction-history-table td.failed{
+    color: #fe5050;
+    font-weight: 400;
+}
+
+table.transaction-history-table td.pending{
+    color: rgb(247, 247, 76);
+    font-weight: 400;
+}
+
+
+/* tabel styling */
+table.transaction-history-table tr:nth-child(odd) {
+    background-color: #f9f9f9; /* Replace with your desired color */
+}
+
+table.transaction-history-table tr {
+    display: flex; /* Required to align pseudo-elements properly */
+    align-items: center; /* Center the text and icon vertically */
+}
+
+table.transaction-history-table td {
+    flex: 1; /* Allow table cells to take equal space */
+}
+
+table.transaction-history-table th{
+    flex: 1; /* Allow table cells to take equal space */
+}

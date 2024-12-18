@@ -1,0 +1,194 @@
+
+/* css variables */
+:root{
+    --color-default:#030749;
+    --color-second: #070c71;
+    --color-white:#fff;
+    --color-dim-light: #f3f3f3;
+    --color-body:#e4e9f7;
+    --color-light:#e0e0e0;
+    --color-orange: #fe5050;
+    --color-dark-grey: #7e8299;
+}
+
+
+.accomodation-hero-header{
+    background-color: #f3f3f3;
+    height: auto;
+    margin: 2em;
+    margin-top: 5vh; /* change responsive */
+    padding: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.accomodation-text h1{
+    font-size: 1.2em;
+    color: #030749;
+    font-weight: 700;
+}
+
+.accomodation-text h4{
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #7e8299;
+}
+
+.accomodation-grid-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1em;
+    margin: 2em;
+}
+
+.accomodation-grid-box{
+    padding: 1.5em;
+}
+
+.accomodation-grid-box.box-2{
+    border: 1px solid #f3f3f3;
+    border-radius: 3px;
+}
+
+.accomodation-grid-box.box-1{
+    line-height: 2em;
+}
+
+.accomodation-grid-box.box-1 h3{
+    color: #030749;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.accomodation-grid-box.box-1 p{
+    font-weight: 300;
+    color: #7e8299;
+}
+
+.accomodation-grid-box.box-1 p.sub{
+    font-size: 0.85em;
+    color: #ff8c8c;
+}
+
+
+
+.accomodation-flex-box{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.payment-summary{
+    line-height: 1.5em;
+}
+
+.payment-summary h4{
+    color: #030749;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.payment-summary p{
+    font-weight: 300;
+    font-size: 0.75em;
+    color: var(--color-dark-grey);
+}
+
+.booking{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-default);
+}
+
+.booking h4{
+    font-weight: 800;
+    font-size: 0.75em;
+}
+
+.booking p{
+    font-weight: 800;
+    font-size: 0.75em;
+}
+
+.amount{
+    color: var(--color-orange);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.75em;
+    font-weight: 300;
+}
+
+.proceed{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.proceed-btn{
+    width: 100%;
+}
+
+.proceed-btn button{
+    width: 100%;
+    padding:1em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    background-color: var(--color-default);
+    border: 0px;
+    border-radius:3px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.proceed-btn button:hover{
+    background-color: var(--color-orange);
+}
+
+.proceed a{
+    font-size: 0.85em;
+    color: #fff;
+    width: 60%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: 300;
+    transition: 0.3s ease-in-out;
+    border-radius: 3px;
+    font-weight: 300;
+}
+
+.secured{
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f3f3;
+    padding: 1em;
+    margin-top: 0;
+}
+
+.secured-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secured-header p{
+    font-size: 0.6em;
+    font-weight: 400;
+    color: #7e8299;
+}
+
+.secured-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    gap: 1em;
+    height: auto;
+}
+
+.secured-img img{
+    width: 50px;
+}
+

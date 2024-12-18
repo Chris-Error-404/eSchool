@@ -1,0 +1,113 @@
+@media (max-width: 786px){
+    body::before{
+        display: block;
+        content: '';
+        height: 60px;
+    }
+
+    .courses-hero-header{
+        margin: 1em;
+    }
+
+    .courses-navbar{
+        margin: 1em;
+        padding: 0em;
+        margin-bottom: 0em;
+    }
+    .courses-navbar a{
+        padding: 1em;
+        padding-bottom: 1em;
+    }
+
+    .courses-navbar a{
+        margin-right: 0em;
+    }
+
+
+
+    .container {
+        padding: 0em;
+        padding-top: 0;
+    }
+
+    .dropdown{
+        display: block;
+        gap: 1em;
+        margin-top: 0;
+    }
+
+    .dropdown .students-result-header{
+        margin-bottom: 0;
+    }
+
+    .dropdown select{
+        width: 100%;
+    }
+
+    .class-content .tabs {
+        margin-bottom: 0em;
+        margin-left: 0em;
+    }
+
+    .class-content .tab-content{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .students-result-header p{
+        color: #7e8299;
+        font-weight: 300;
+        font-size: 0.8em;
+    }
+
+    .students-result-table-container{
+        margin: 0em;
+    }
+
+    table.students-result-table td:nth-child(1) {
+        display: none;
+    }
+    table.students-result-table td:nth-child(5) {
+        display: none;
+    }
+    
+    table.students-result-table th:nth-child(1) {
+        display: none;
+    }
+    table.students-result-table th:nth-child(5) {
+        display: none;
+    }
+
+    .students-result-header{
+        gap: 0.5em;
+    }
+
+    .students-result-header h4{
+        font-size: 1em;
+    }
+    
+    .students-result-header h3{
+        font-size: 0.85em;
+        font-weight: 500;
+    }
+    
+    .students-result-header p{
+        color: #7e8299;
+        font-weight: 300;
+        font-size: 0.8em;
+    }
+
+    .print-section button{
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-top: 0.7em;
+        padding-bottom: 0.7em;
+        width: 50%;
+        font-size: 0.85em;
+    }
+    
+    .tabs.courses-navbar{
+        margin-left: 1em;
+    }
+    
+}

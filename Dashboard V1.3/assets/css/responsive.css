@@ -1,0 +1,331 @@
+
+@media (max-width:1024px){
+
+    body::before{
+        display: block;
+        content: '';
+        height: 5px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .profile_details img{
+        width: 15%;
+
+    }
+    
+    .side-menu .nav-list a{
+        font-size: 0.8em;
+    }
+
+    .home-section .navbar{
+        position: fixed;
+    }
+
+    div.overlay{
+        display: block;
+    }
+
+    div.sub-navbar{
+        display: none;
+    }
+
+    div.sidebar{
+        display: none;
+    }
+
+    div.navbar div.navbar-items1{
+        display: none;
+    }
+
+    div.logo i.menu-btn {
+        display: inline;
+    }
+
+    div.navbar-items2 span.status{
+        padding: 0.5em;
+        padding-left: 0.8em;
+        padding-right: 0.8em;
+        margin-right: 1em;
+        font-size: 0.8em;
+    }
+
+    .navbar div.navbar-items2 i{
+        margin-left: 0.5em;
+    }
+
+    .home-section{
+        position: relative;
+        background-color:#fff;
+        min-height: 100vh;
+        top:0;
+        left:0;
+        width: 100%;
+        transition: all .5s ease;
+        z-index: 2;
+        transition: all 0.5s ease;
+    }
+
+    div.heros{
+        margin-top: 10vh;
+    }
+
+    .hero-1{
+        margin: 1em;
+    }
+
+    .hero-2 .text{
+        width: 100%;
+        margin: 1em;
+        margin-top: 1em;
+
+    }
+
+    .home-section .navbar{
+        align-items: center;
+    }
+
+    div.grid-layout{
+        display: block;
+      }
+
+      div.activity{
+        margin: 3em;
+        margin-right: 2em;
+        margin-left: 2em;
+        font-size: 0.7em;
+    }
+
+    div.activity-grid{
+        display: grid;
+        grid-template-columns:1fr 1fr;  
+    } 
+      
+    div.verification{
+        display: none;
+    }
+
+    div.time{
+        text-align: right;
+        color: #7e8299;
+    }
+
+    .grid-2{
+        background-color: #fff;
+        margin-top: 3em;
+        margin-right: 0em;
+        min-height: 60vh;
+        height: auto;
+        border-radius: 0px;
+        padding: 1;
+        padding-bottom: 3em;
+    }
+
+
+    .notice-board-hero{
+        margin-left: 1em;
+        margin-right: 1em;
+        background-color: #030749;
+        border-radius: 5px;
+
+
+    }
+
+    .content-card{
+        background-color: #f3f3f3;
+        padding: 2em;
+    }
+    /* EFFECT pop out */
+.content-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Pop-out effect on hover */
+.content-card:hover {
+    transform: scale(1); /* Slightly increases the size */
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0); /* Adds a shadow for emphasis */
+}
+
+div.footer-navbar{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 100%;
+    height: auto;
+}
+
+}
+
+
+
+
+
+@media (max-width: 786px){
+
+    body::before{
+        display: block;
+        content: '';
+        height: 5px;
+    }
+
+
+    .profile_details img{
+        width: 20%;
+        border-radius: 5px;
+    }
+    
+    .side-menu .nav-list a{
+        font-size: 0.85em;
+    }
+
+    span.dashboard-logo{
+        font-size: 1.3em;
+    }
+
+    .home-section .navbar{
+        position: fixed;
+    }
+
+    div.overlay{
+        display: block;
+    }
+
+    div.sub-navbar{
+        display: none;
+    }
+
+    div.sidebar{
+        display: none;
+    }
+
+    div.navbar div.navbar-items1{
+        display: none;
+    }
+
+    div.logo i.menu-btn {
+        display: inline;
+    }
+
+    div.navbar-items2 span.status{
+        padding: 0.5em;
+        padding-left: 0.8em;
+        padding-right: 0.8em;
+        margin-right: 1em;
+        font-size: 0.8em;
+    }
+
+    .navbar div.navbar-items2 i{
+        margin-left: 0.5em;
+    }
+
+    .home-section{
+        position: relative;
+        background-color:#fff;
+        min-height: 100vh;
+        top:0;
+        left:0;
+        width: 100%;
+        transition: all .5s ease;
+        z-index: 2;
+        transition: all 0.5s ease;
+    }
+
+    div.heros{
+        margin-top: 10vh;
+    }
+
+    .hero-1{
+        margin: 1em;
+    }
+
+    .hero-2 .text{
+        width: 100%;
+        margin: 1em;
+        margin-top: 1em;
+
+    }
+
+    .home-section .navbar{
+        align-items: center;
+    }
+
+    div.grid-layout{
+        display: block;
+      }
+
+      div.activity{
+        margin: 3em;
+        margin-right: 2em;
+        margin-left: 2em;
+        font-size: 0.7em;
+    }
+
+    div.activity-grid{
+        display: grid;
+        grid-template-columns:1fr 1fr;  
+    } 
+      
+    div.verification{
+        display: none;
+    }
+
+    div.time{
+        text-align: right;
+        color: #7e8299;
+    }
+
+    .grid-2{
+        background-color: #fff;
+        margin-top: 3em;
+        margin-right: 0em;
+        min-height: 60vh;
+        height: auto;
+        border-radius: 0px;
+        padding: 1;
+        padding-bottom: 3em;
+    }
+
+
+    .notice-board-hero{
+        margin-left: 1em;
+        margin-right: 1em;
+        background-color: #030749;
+        border-radius: 5px;
+
+
+    }
+
+    .content-card{
+        background-color: #f3f3f3;
+        padding: 2em;
+    }
+    /* EFFECT pop out */
+.content-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Pop-out effect on hover */
+.content-card:hover {
+    transform: scale(1); /* Slightly increases the size */
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0); /* Adds a shadow for emphasis */
+}
+
+div.footer-navbar{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 100%;
+    height: auto;
+}
+
+#loader p {
+    font-size: 1.5em; /* Larger font size for emphasis */
+    color: #030749; /* Text color */
+    margin-top: 20px;
+  }
+  
+  #loader small {
+    font-size: 1em;
+    color: #7e8299; /* Subtext color */
+    margin-top: 5px;
+  }
+  
+
+}
