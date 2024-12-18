@@ -280,7 +280,7 @@ table.transaction-history-table td.failed{
 }
 
 table.transaction-history-table td.pending{
-    color: rgb(247, 247, 76);
+    color: #030749;
     font-weight: 400;
 }
 
