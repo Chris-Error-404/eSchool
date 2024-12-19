@@ -114,5 +114,11 @@
     .secured-img img{
         width: 50px;
     }
+
+    .proceed-btn button{
+    padding-top: 0.95em;
+    padding-bottom: 0.95em;
+}
+
     
 }
