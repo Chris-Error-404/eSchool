@@ -1,0 +1,92 @@
+@media (max-width:1024px){
+    body{
+        overflow: auto;
+    }
+
+    .back{
+        display: block;
+    }
+    
+    .sign-up-grid{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+    }
+    
+    .sign-up-form .sign-up-container{
+        width: 100%;
+    }
+
+    .sign-up-img{
+        display: none;
+    }
+    
+    .back{
+        padding: 1.5em;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+    
+    .back-btn{
+        padding: 1em;
+        padding-right: 0.8;
+        width: 3.125em;
+        height: 3.125em;
+        background-color: #070c71; /* Your desired color */
+        color: #fff;
+        font-size: 16px;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    .back-btn:hover{
+        background-color: #0f158a;
+    }
+}
+
+
+
+@media (max-width:786px){
+
+.back{
+    display: block;
+}
+
+.sign-up-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.sign-up-img{
+    display: none;
+}
+
+.back{
+    padding: 1.5em;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.back-btn{
+    padding: 1em;
+    width: 3.125em;
+    height: 3.125em;
+    background-color: #070c71; /* Your desired color */
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+}
