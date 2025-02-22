@@ -28,8 +28,7 @@
     
     .back{
         padding: 1.5em;
-        padding-bottom: 0;
-        padding-left: 0em;
+        padding: 0em;
         display: flex;
         justify-content: right;
         align-items: center;
