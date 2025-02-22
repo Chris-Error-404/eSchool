@@ -63,6 +63,8 @@ body{
 .sign-in-form .sign-in-container{
     width: 85%;
     color: #030749;
+    padding: 1em;
+    overflow: auto;
 }
 
 .sign-in-container h1{
