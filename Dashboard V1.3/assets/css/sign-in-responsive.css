@@ -9,6 +9,10 @@
         align-items: center;
         min-height: 80vh;
     }
+
+    .sign-in-form .sign-in-container{
+        width: 90%;
+    }
     
     .sign-in-img{
         display: none;
