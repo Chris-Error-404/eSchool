@@ -18,6 +18,10 @@
         width: 90%;
     }
 
+    input{
+        margin-bottom: 0.5em;
+    }
+
     .sign-up-img{
         display: none;
     }
