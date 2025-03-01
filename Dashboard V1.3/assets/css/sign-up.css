@@ -121,9 +121,23 @@ input:focus{
     outline: 0.5px solid #070c71;
     background-color: #e8f0f8;
 }
-/* input{
-    border: 0.5px solid var(--color-second);
-} */
+
+select{
+    height: auto;
+    width: 100%;
+    padding: 0.625em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    background-color: #f3f3f3;
+    border: #f3f3f3;
+    border-radius: 0px;
+    transition: all 0.5s ease;
+}
+
+select:invalid{
+    color: #7e8299;
+}
 
 button{
     background-color: #030749;
