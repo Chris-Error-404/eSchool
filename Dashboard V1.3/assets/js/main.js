@@ -210,12 +210,3 @@ document.querySelectorAll('.tabs').forEach(tabContainer => {
     });
 });  
 
-
-//SCRIPT FOR DOB PLACEHOLDER
-document.getElementById("dob").addEventListener("focus", function () {
-    this.setAttribute("data-placeholder", this.getAttribute("placeholder"));
-    this.removeAttribute("placeholder");
-});
-document.getElementById("dob").addEventListener("blur", function () {
-    this.setAttribute("placeholder", this.getAttribute("data-placeholder"));
-});
