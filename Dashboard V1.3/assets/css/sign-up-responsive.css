@@ -69,14 +69,15 @@
     display: none;
 }
 
-.back{
+.sign-up-body  .back{
     padding: 1.5em;
+    padding-bottom: 0em;
     display: flex;
     justify-content: right;
     align-items: center;
 }
 
-.back-btn{
+.sign-up-body .back-btn{
     padding: 1em;
     width: 3.125em;
     height: 3.125em;
