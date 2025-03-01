@@ -3,6 +3,10 @@
         overflow: auto;
     }
 
+    .back-to-page{
+        display:none;
+    }
+
     .back{
         display: block;
     }
