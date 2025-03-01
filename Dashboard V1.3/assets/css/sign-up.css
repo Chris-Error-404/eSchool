@@ -112,19 +112,6 @@ input{
     transition: all 0.5s ease;
 }
 
-select{
-    height: auto;
-    width: 100%;
-    padding: 0.625em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    margin-bottom: 1em;
-    background-color: #f3f3f3;
-    border: #f3f3f3;
-    border-radius: 0px;
-    transition: all 0.5s ease;
-}
-
 input::placeholder{
     color: #7e8299;
     font-size: 1em;
