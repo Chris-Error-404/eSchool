@@ -210,3 +210,16 @@ document.querySelectorAll('.tabs').forEach(tabContainer => {
     });
 });  
 
+
+
+//FORM CONTINUE BUTTON SCRIPT
+function redirectAfterSubmit(event) {
+    event.preventDefault(); // Prevent default form submission
+    let form = document.getElementById("myForm");
+    
+    // Simulate form submission (Replace this with actual backend processing)
+    setTimeout(() => {
+        form.submit(); // Submit form
+        window.location.href = "hathers-details.html"; // Redirect after submission
+    }, 500); // Delay to ensure submission happens
+}

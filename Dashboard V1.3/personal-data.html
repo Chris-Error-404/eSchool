@@ -61,7 +61,7 @@
                         <option value="male">None</option>
                         <option value="female">Yes</option>
                        </select>
-                       <form>
+                       <form id="MyForm"><!--essential for continu button-->
                         <p>Email Address</p>
                         <input type="email" placeholder="Enter your email" name="email" required>
                     
@@ -158,7 +158,7 @@
                             <option value="FCT">Federal Capital Territory (FCT)</option>
                         </select>
                     
-                        <button type="submit">Continue</button>
+                        <button type="button" onclick="submitForm()">Continue</button>
                        
                        <span>Already have an account? <a href="./sign-in.html">Sign In</a></span> 
                    </form>
